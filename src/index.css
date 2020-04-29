@@ -1,13 +1,411 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/* overall styling */
+
+* {
+  font-family: 'Montserrat'
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+body {
+  margin: 0;
 }
+
+
+/* header styling */
+
+header {
+  background-image: url(assets/leafs.jpg);
+  background-repeat: no-repeat; 
+  background-size: cover;
+  padding: 40px 36px 0 36px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-between;
+  border-bottom: 2px solid white;
+  color: white;
+  text-shadow: 1px 1px 4px black;
+}
+
+.icons {
+  display: flex;
+}
+
+.icon {
+  border: 2px solid white;
+  border-radius: 50%;
+  box-shadow: 1px 1px 4px black;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin-left: 5px;
+  margin-bottom: 10px;
+}
+
+.icon img {
+  height: 15px;
+  width: 15px;
+  padding: 8px;
+}
+
+.header-intro {
+  align-self: flex-start;
+}
+
+.profile-pic {
+  width: 200px;
+  height: 200px;
+  border: 2px solid white;
+  border-radius: 50%;
+  margin-bottom: -30px;
+}
+
+p {
+  font-family: 'roboto';
+  font-size: 17px;
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: bolder;
+  margin: 0
+}
+
+h2 {
+  font-weight: bolder;
+  margin-top: 10px;
+}
+
+
+/* portfolio information styling  */
+
+h3 {
+  font-size: 19px;
+  font-weight: bolder;
+  color: white;
+}
+
+.bold-color {
+  background-color: #b93f5d;
+  font-size: 22px;
+  padding: 3px 10px 3px 10px;
+}
+
+.smaller-bold-text {
+  font-family: 'Roboto';
+  font-size: 17px;
+  color: #b93f5d;
+}
+
+h4 {
+  font-size: 17px;
+}
+
+.tech-info {
+  display: flex;
+  text-align: center;
+}
+
+.portfolio-section {
+  padding: 58px 36px 56px 36px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+
+.bold-text {
+  color: #b93f5d;
+}
+
+
+/* projects section  */
+
+.featured-projects {
+  width: 300px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 5px 0 40px 0;
+}
+
+.project-link {
+  text-decoration: none;
+  cursor: pointer;
+  color: black;
+}
+
+.featured-projects .project-wrapper {
+  position: relative;
+}
+
+.featured-projects .project-wrapper h3 {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 5;
+  transform: translate(-50%, -50%);
+}
+
+.featured-projects .project-wrapper img {
+  width: 300px;
+  height: 180px;
+  opacity: 75%;
+}
+
+.app-text-container {
+  display: flex;
+  justify-content: left;
+  flex-wrap: wrap;
+}
+
+.languages-container {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.lang {
+  font-size: 12px;
+  background-color: pink;
+  padding: 2px 10px 2px 10px;
+  margin-right: 5px;
+  color: black;
+}
+
+
+/* articles and my thoughts  */
+
+.thoughts-wrapper {
+  display: flex;
+  flex-direction: column;
+  }
+
+.article-link {
+  font-family: 'Roboto';
+  text-decoration: none;
+  cursor: pointer;
+  color: black;
+}
+
+.my-thoughts {
+  display: flex;
+  width: 300px;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.my-thoughts-img {
+  width: 300px;
+  height: 205px;
+  padding-top: 20px;
+}
+
+.more-thoughts-wrapper {
+  display: flex;
+  justify-content: left;
+  flex-wrap: wrap;
+}
+
+
+/* skills  */
+
+.skills-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+}
+
+
+.skills {
+  flex-grow: 1;
+  flex-basis: 50%;
+  max-width: 200px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.skills p {
+  margin: 5px;
+  text-align: center;
+}
+
+
+/* for more  */
+
+.for-more {
+  display: flex;
+  flex-direction: column
+}
+
+.for-more-icons {
+  display: flex;
+  width: 300px;
+  padding-top: 40px;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.icon-red {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin: 5px;
+  text-decoration: none;
+  display: flex;
+  flex-wrap: wrap;
+  width: 60px;
+  height: 60px;
+}
+
+.icon-red div {
+  padding: 10px;
+  border: 2px solid #b93f5d;
+  border-radius: 50%;
+}
+
+.icon-red img {
+  height: 50px;
+  width: 50px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.icon-red p {
+  font-size: 12px;
+  color: #b93f5d;
+}
+
+/* different backgrounds  */
+
+.beige {
+  background-color: #F4F4F4;
+}
+
+/* footer  */
+
+footer {
+  background-color: rgb(131, 179, 131);
+  padding: 40px 36px 60px 36px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+footer h3 {
+  font-size: 21px;
+}
+
+footer p {
+  color: white;
+  margin: 5px
+}
+
+
+/* media queries  */
+
+@media (min-width: 600px) {
+  header {
+    padding: 200px 200px 0 200px
+  }
+
+  .icon {
+    margin-left: 15px;
+  }
+
+  .icon img {
+    height: 25px;
+    width: 25px;
+    padding: 12px;
+  }
+
+  .portfolio-section {
+    padding: 58px 200px 58px 200px;
+  }
+
+  .thoughts-wrapper {
+    align-items: baseline;
+  }
+
+
+  .icon-red {
+    margin: 20px 
+  }
+}
+
+@media (min-width: 1000px) {
+  .profile-pic {
+    width: 260px;
+    height: 260px;
+  }
+
+  .skills {
+    flex-basis: calc(100% / 4);
+  }
+
+  .beige {
+    display: flex;
+    flex-basis: calc(100% / 2)
+  }
+
+  .featured-projects-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .featured-projects {
+    padding: 5px 20px 40px 20px;
+  }
+
+  .other-projects-wrapper {
+    align-self: baseline;
+  }
+
+  .thoughts-wrapper {
+    display: flex;
+    flex-direction: unset;
+    }
+
+  .my-thoughts {
+    padding: 5px 20px 40px 20px;
+  }
+
+  .more-thoughts-wrapper {
+    display: block;
+    align-self: baseline;
+  }
+
+
+  .for-more-icons {
+    width: 80%;
+    margin-top: 15px;
+    padding: 50px 0 50px 0;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .smaller-bold-text {
+    font-size: 20px;
+  }
+
+  .icon-red img {
+    height: 100px;
+    width: 100px;
+    padding: 20px;
+  }
+
+  .icon-red p {
+    font-size: 20px;
+  }
+}
+
+
+
