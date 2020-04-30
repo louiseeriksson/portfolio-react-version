@@ -4,7 +4,7 @@ export const OtherProject = (props) => {
   return (
     <div className="app-text-container">
       <a className="project-link" href={props.link}>
-        <p>
+        <p className='other-project-info'>
           <span className="smaller-bold-text">
             {props.name}.&nbsp;
             </span>
