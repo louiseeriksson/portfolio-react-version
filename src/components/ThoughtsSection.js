@@ -11,13 +11,15 @@ export const ThoughtsSection = () => {
 
       <div className="thoughts-wrapper">
         <Thought
+          src='assets/coffeecup.jpg'
+          link='https://www.linkedin.com/pulse/cheers-future-louise-eriksson/'
+          name='CHEERS TO THE FUTURE'
+          text="I can’t believe it’s already May! In January I jumped on this huge rollercoaster to change my career. I’ts been so fun and at the same time so difficult. With a new project every week I constantly feel like I'm lost..." />
+        <Thought
+          src='assets/rollercoaster.jpeg'
           link='https://www.linkedin.com/pulse/2020-louise-eriksson/'
           name='JAN 2020'
           text='We’re 6 weeks in to the new decade. That means 5 weeks in to the Technigo Bootcamp - and that means first sprint is already finished. If you told me 6 months ago that 2020 really would be this new-year-new-me-journey I would...' />
-        <Thought
-          link='https://www.linkedin.com/pulse/turns-out-im-same-age-html-louise-eriksson/?trackingId=CCPRbfMCTW%2BE%2FZ1enRpTYA%3D%3D'
-          name='#HTML'
-          text='I just recently started coding and actually don’t know much about ”computer-stuff” in general, so I thought I should read up on some of the most obvious things I will work with as a developer, stuff I take for...' />
       </div>
 
       <h3 className="bold-color">
@@ -26,21 +28,9 @@ export const ThoughtsSection = () => {
 
       <div className="more-thoughts-wrapper">
         <OtherThought
-          link=''
-          name='CFVGBUHNJMK,L'
-          text='xcfgvhbjnkml' />
-        <OtherThought
-          link=''
-          name='CFVGBUHNJMK,L'
-          text='xcfgvhbjnkml' />
-        <OtherThought
-          link=''
-          name='CFVGBUHNJMK,L'
-          text='xcfgvhbjnkml' />
-        <OtherThought
-          link=''
-          name='CFVGBUHNJMK,L'
-          text='xcfgvhbjnkml' />
+          link='https://www.linkedin.com/pulse/turns-out-im-same-age-html-louise-eriksson/'
+          name='#HTML'
+          text='I just recently started coding and actually don’t know much about ”computer-stuff” in general, so I thought I should read up on some of the most obvious things I will work with as a developer, stuff I take for...' />
       </div>
     </section>
   )
