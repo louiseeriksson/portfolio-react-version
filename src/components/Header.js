@@ -1,4 +1,5 @@
 import React from 'react'
+import profilePic from '/assets/profile-pic.jpeg'
 
 export const Header = () => {
   return (
@@ -19,7 +20,7 @@ export const Header = () => {
         <h1>junior frontend developer</h1>
         <h2>+ teamplayer</h2>
       </div>
-      <img className="profile-pic" src='../../public/assets/profile-pic.jpeg' alt="Louise"></img>
+      <img className="profile-pic" src={profilePic} alt="Louise"></img>
     </header >
   )
 }
