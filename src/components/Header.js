@@ -19,7 +19,7 @@ export const Header = () => {
         <h1>junior frontend developer</h1>
         <h2>+ teamplayer</h2>
       </div>
-      <img className="profile-pic" src="assets/profile-pic.jpeg" alt="Louise"></img>
+      <img className="profile-pic" src={require('assets/profile-pic.jpeg')} alt="Louise"></img>
     </header>
   )
 }
