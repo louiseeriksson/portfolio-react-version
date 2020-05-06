@@ -19,8 +19,8 @@ export const Header = () => {
         <h1>junior frontend developer</h1>
         <h2>+ teamplayer</h2>
       </div>
-      <img className="profile-pic" src={require('./assets/profile-pic.jpeg')} alt="Louise"></img>
-    </header>
+      <img className="profile-pic" src={process.env.PUBLIC_URL + 'assets/profile-pic.jpeg'} alt="Louise"></img>
+    </header >
   )
 }
 
