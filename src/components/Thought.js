@@ -4,7 +4,7 @@ export const Thought = (props) => {
   return (
     <div className="my-thoughts">
       <a className="article-link" href={props.link}>
-        <img className="my-thoughts-img" src={props.src} alt={props.name}></img>
+        <img className="my-thoughts-img" src={process.env.PUBLIC_URL + props.src} alt={props.name}></img>
         <p>
           <span className="smaller-bold-text">
             {props.name}.&nbsp;
