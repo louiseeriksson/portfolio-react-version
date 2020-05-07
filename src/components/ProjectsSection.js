@@ -11,7 +11,7 @@ export const ProjectsSection = () => {
       <div className="featured-projects-wrapper">
         <FeaturedProject
           projectLink='https://github.com/louiseeriksson/project-happy-thoughts'
-          img='assets/happy-thoughts.png'
+          img={process.env.PUBLIC_URL + './assets/happy-thoughts.png'}
           alt='happy thoughts'
           name='HAPPY THOUGHTS'
           info='A happy-twitter built in React using our own API' />
