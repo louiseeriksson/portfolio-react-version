@@ -17,7 +17,7 @@ export const ProjectsSection = () => {
           info='A happy-twitter built in React using our own API' />
         <FeaturedProject
           projectLink='https://github.com/louiseeriksson/project-movies'
-          img='assets/movies.png'
+          img='./assets/movies.png'
           alt='popular movies'
           name='MOVIES'
           info='Fetching popular movies from an API. Using React useState, useEffect, useParams, Browserrouter, Link and Route' />
