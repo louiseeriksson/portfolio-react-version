@@ -76,6 +76,9 @@ export const Skills = () => {
           <p>
             Social skills
           </p>
+          <p>
+            Teamplayer
+          </p>
         </div>
       </div>
     </section>

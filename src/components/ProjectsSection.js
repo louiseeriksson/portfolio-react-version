@@ -11,26 +11,26 @@ export const ProjectsSection = () => {
       <div className="featured-projects-wrapper">
         <FeaturedProject
           projectLink='https://github.com/louiseeriksson/project-happy-thoughts'
-          img=''
+          img='assets/happy-thoughts.png'
           alt='happy thoughts'
           name='HAPPY THOUGHTS'
           info='A happy-twitter built in React using our own API' />
         <FeaturedProject
           projectLink='https://github.com/louiseeriksson/project-movies'
-          img=''
+          img='assets/movies.png'
           alt='popular movies'
           name='MOVIES'
           info='Fetching popular movies from an API. Using React useState, useEffect, useParams, Browserrouter, Link and Route' />
         <FeaturedProject
           projectLink='https://github.com/louiseeriksson/project-todos'
-          img=''
+          img='assets/todo.png'
           alt='get shit done'
           name='GET SHIT DONE'
           info='Built a to-do-web-app where you can add tasks, tic them off as done and remove them when you want to clear the list' />
         {/* //add redux as lang!!! */}
         <FeaturedProject
           projectLink='https://github.com/louiseeriksson/project-redux-quiz-elephants'
-          img=''
+          img='assets/quiz.png'
           alt='flag quiz'
           name='FLAG QUIZ'
           info='Made a quiz as a groupproject using Redux'
