@@ -8,7 +8,7 @@ export const TechSection = () => {
       </h3>
       <h4 className="tech-info">
         HTML5, CSS3, Flexbox, JavaScript, ES6, JSX, React, React Hooks, React Native, Redux, Node.js, Mongo DB, Web
-        Accessibly, API:s,
+        Accessability, API:s,
         mob-programming, pair-programming, GitHub.
       </h4>
     </section>
