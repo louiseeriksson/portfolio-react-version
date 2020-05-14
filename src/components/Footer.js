@@ -12,9 +12,12 @@ export const Footer = () => {
       <p>
         +4670 383 34 11
       </p>
-      <p>
-        epost.louise@gmail.com
-     </p>
+      <a href="mailto:epost.louise@gmail.com">
+        <p>
+          epost.louise@gmail.com
+        </p>
+      </a>
+
     </footer>
   )
 }
