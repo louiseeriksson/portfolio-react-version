@@ -54,15 +54,7 @@ export const Skills = () => {
           <p>
             Jest
           </p>
-
         </div>
-
-        {/* <div class="skills">
-          <p class="smaller-bold-text">
-            UPCOMING
-          </p>
-
-        </div> */}
 
         <div className="skills">
           <p className="smaller-bold-text">
@@ -79,6 +71,12 @@ export const Skills = () => {
           </p>
           <p>
             Teamplayer
+          </p>
+          <p>
+            Dog lover
+          </p>
+          <p>
+            Crazy plant lady
           </p>
         </div>
       </div>
