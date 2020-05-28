@@ -38,9 +38,19 @@ export const ProjectsSection = () => {
         />
       </div>
       <h3 className="bold-color">
-        OTHER PROJECTS
+        MORE PROJECTS
         </h3>
       <div className="other-projects-wrapper">
+        <OtherProject
+          link='https://github.com/louiseeriksson/project-auth'
+          name='AUTHENTICATION'
+          info='Register and Login'
+        />
+        <OtherProject
+          link='https://github.com/louiseeriksson/redux-store'
+          name='REDUX STORE'
+          info='A small webshop'
+        />
         <OtherProject
           link='https://github.com/louiseeriksson/project-nutrition'
           name='FOOD SCANNER'
@@ -86,15 +96,7 @@ export const ProjectsSection = () => {
           name='THE BEAN'
           info='Business site for my pretend coffee roastery'
         />
-        <OtherProject
-          link='https://github.com/louiseeriksson/project-news-site'
-          name='CACTUS NEWS'
-          info='A newspage about cactuses'
 
-
-        //ADD/REMOVE LAGUAGES FOR EVERY PRROJECT
-        //CHANGE THE LAYOUT FOR FEATURED PROJECTS (2*2)
-        />
       </div>
     </section>
   )
