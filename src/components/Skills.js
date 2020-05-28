@@ -13,6 +13,15 @@ export const Skills = () => {
             CODE
           </p>
           <p>
+            React
+          </p>
+          <p>
+            Redux
+          </p>
+          <p>
+            JavaScript ES6
+          </p>
+          <p>
             HTML5
           </p>
           <p>
@@ -22,19 +31,10 @@ export const Skills = () => {
             Flexbox
           </p>
           <p>
-            JavaScript ES6
-          </p>
-          <p>
-            React
-          </p>
-          <p>
-            Redux
-          </p>
-          <p>
-            GitHub
-          </p>
-          <p>
             Node.js
+          </p>
+          <p>
+            Mongo DB
           </p>
         </div>
 
@@ -43,17 +43,18 @@ export const Skills = () => {
             TOOLBOX
           </p>
           <p>
-            VS Code
+            Git
           </p>
           <p>
-            Atom
+            VS Code
           </p>
           <p>
             Postman
           </p>
           <p>
-            Slack
+            Jest
           </p>
+
         </div>
 
         {/* <div class="skills">
