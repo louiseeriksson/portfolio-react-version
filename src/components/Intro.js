@@ -3,9 +3,10 @@ import React from 'react'
 export const Intro = () => {
   return (
     <section className="portfolio-section beige">
-      <h4>
-        Hi! I'm a junior Frontend Developer with a background in the restaurantbusiness, where I've been working at small companies and at one of swedens biggest coffeeroasteries. The tasks have been everything from admin to customer service to hosting lectures and educating in specialty coffee. I'm a creative person that get energy from learning new things - righ now I'm all about ReactJS and want to develop within that area. People describe me as a calm, structured and practical person and I consider myself to be a quick learner. "Hands-on/learning-by-doing" is my favorite way of learning.
-        </h4>
+      <h4>Hi there!</h4>
+      <h4>Here I am - a junior Frontend Developer with more than 10 years experience from working in restaurants and bars, at both small companies and at one of Swedens biggest coffee roasteries - which makes me used to handling stressful situations and knowing how important it is to work well with your team.</h4>
+      <h4>I’m creative and solution oriented, always curious to understand how things work and how they can be improved. People describe me as calm and structured, which I believe is good characteristics for a Developer and this business.</h4>
+      <h4>My favorite field right now is ReactJS and JavaScript, that I really want to dig in to and develop within. I also have a goal to get more in to Design and UX, where I can use my creative skills to the fullest. </h4>
     </section>
   )
 }
