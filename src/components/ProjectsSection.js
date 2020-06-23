@@ -33,7 +33,7 @@ export const ProjectsSection = () => {
           img='assets/vaxt.nu.png'
           alt='växt.nu'
           name='VÄXT.NU'
-          info='Combined my two biggest hobbies - plants and programming in to this webshop were i built the backend in Express and in the frontend I focused on the design and styling.'
+          info='Combined my two biggest hobbies - plants and programming in to this webshop were I built the backend in Express and in the frontend I focused on the design and styling.'
         // add redux?
         />
       </div>
