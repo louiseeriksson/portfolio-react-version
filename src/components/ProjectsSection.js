@@ -29,18 +29,23 @@ export const ProjectsSection = () => {
           info='Built a to-do-web-app where you can add tasks, tic them off as done and remove them when you want to clear the list' />
         {/* //add redux as lang!!! */}
         <FeaturedProject
-          projectLink='https://github.com/louiseeriksson/project-redux-quiz-elephants'
-          img='assets/quiz.png'
-          alt='flag quiz'
-          name='FLAG QUIZ'
-          info='Made a quiz as a groupproject using Redux'
-        // add fedux
+          projectLink='https://github.com/louiseeriksson/final-project-frontend'
+          img='assets/vaxt.nu.png'
+          alt='växt.nu'
+          name='VÄXT.NU'
+          info='Combined my two biggest hobbies - plants and programming in to this webshop were i built the backend in Express and in the frontend I focused on the design and styling.'
+        // add redux?
         />
       </div>
       <h3 className="bold-color">
         MORE PROJECTS
         </h3>
       <div className="other-projects-wrapper">
+        <OtherProject
+          link='https://github.com/louiseeriksson/project-redux-quiz-elephants'
+          name='FLAG QUIZ'
+          info='Made a Redux quiz as a groupproject'
+        />
         <OtherProject
           link='https://github.com/louiseeriksson/project-auth'
           name='AUTHENTICATION'
