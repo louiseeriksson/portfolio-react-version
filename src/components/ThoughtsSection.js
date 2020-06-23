@@ -11,10 +11,17 @@ export const ThoughtsSection = () => {
 
       <div className="thoughts-wrapper">
         <Thought
+          src='assets/balloons.jpeg'
+          link='https://www.linkedin.com/pulse/final-countdown-louise-eriksson/'
+          name='FINAL COUNTDOWN'
+          text="June is here and I just started on my final project for this course (woop woop 🎉). It will be a fullstack project (both frontend and backend) where I will build a web shop using Redux and fetching my products from my own database..." />
+
+        <Thought
           src='assets/coffeecup.jpg'
           link='https://www.linkedin.com/pulse/cheers-future-louise-eriksson/'
           name='CHEERS TO THE FUTURE'
           text="I can’t believe it’s already May! In January I jumped on this huge rollercoaster to change my career. I’ts been so fun and at the same time so difficult. With a new project every week I constantly feel like I'm lost..." />
+
         <Thought
           src='assets/rollercoaster.jpeg'
           link='https://www.linkedin.com/pulse/2020-louise-eriksson/'
