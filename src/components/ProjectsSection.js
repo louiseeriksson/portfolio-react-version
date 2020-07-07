@@ -9,59 +9,57 @@ export const ProjectsSection = () => {
         FEATURED PROJECTS
       </h3>
       <div className="featured-projects-wrapper">
+
         <FeaturedProject
           projectLink='https://github.com/louiseeriksson/project-happy-thoughts'
           img={process.env.PUBLIC_URL + './assets/happy-thoughts.png'}
           alt='happy thoughts'
           name='HAPPY THOUGHTS'
           info='A happy-twitter built in React using our own API' />
+
         <FeaturedProject
           projectLink='https://github.com/louiseeriksson/project-movies'
           img='./assets/movies.png'
           alt='popular movies'
           name='MOVIES'
           info='Fetching popular movies from an API. Using React useState, useEffect, useParams, Browserrouter, Link and Route' />
+
         <FeaturedProject
           projectLink='https://github.com/louiseeriksson/project-todos'
           img='assets/todo.png'
           alt='get shit done'
           name='GET SHIT DONE'
           info='Built a to-do-web-app where you can add tasks, tic them off as done and remove them when you want to clear the list' />
-        {/* //add redux as lang!!! */}
+
         <FeaturedProject
           projectLink='https://github.com/louiseeriksson/final-project-frontend'
           img='assets/vaxt.nu.png'
           alt='växt.nu'
           name='VÄXT.NU'
-          info='Combined my two biggest hobbies - plants and programming in to this webshop were I built the backend in Express and in the frontend I focused on the design and styling.'
-        // add redux?
-        />
+          info='Combined my two biggest hobbies - plants and programming in to this webshop were I built the backend in Express and in the frontend I focused on the design and styling.' />
+
         <FeaturedProject
-          projectLink='https://github.com/louiseeriksson/final-project-frontend'
-          img='assets/vaxt.nu.png'
-          alt='växt.nu'
-          name='VÄXT.NU'
-          info='Combined my two biggest hobbies - plants and programming in to this webshop were I built the backend in Express and in the frontend I focused on the design and styling.'
-        // add redux?
-        />
+          projectLink='https://github.com/louiseeriksson/tic-tac-toe-redux-codealong'
+          img='assets/tic-tac-toe.png'
+          alt='tre i rad'
+          name='TIC-TAC-TOE'
+          info='The classic game "tre-i-rad" using Redux.' />
+
         <FeaturedProject
-          projectLink='https://github.com/louiseeriksson/final-project-frontend'
-          img='assets/vaxt.nu.png'
-          alt='växt.nu'
-          name='VÄXT.NU'
-          info='Combined my two biggest hobbies - plants and programming in to this webshop were I built the backend in Express and in the frontend I focused on the design and styling.'
-        // add redux?
-        />
+          projectLink='https://github.com/louiseeriksson/project-nutrition'
+          img='assets/foodscanner.png'
+          alt='foodscanner'
+          name='FOOD SCANNER'
+          info='Scan your product to see if its vegan-friendly.' />
+
       </div>
+
       <h3 className="bold-color">
         MORE PROJECTS
-        </h3>
+      </h3>
+
       <div className="other-projects-wrapper">
-        <OtherProject
-          link='https://github.com/louiseeriksson/tic-tac-toe-redux-codealong'
-          name='TIC-TAC-TOE'
-          info='The classic game "tre-i-rad" using Redux'
-        />
+
         <OtherProject
           link='https://github.com/louiseeriksson/project-redux-quiz-elephants'
           name='FLAG QUIZ'
@@ -76,11 +74,6 @@ export const ProjectsSection = () => {
           link='https://github.com/louiseeriksson/redux-store'
           name='REDUX STORE'
           info='A small webshop'
-        />
-        <OtherProject
-          link='https://github.com/louiseeriksson/project-nutrition'
-          name='FOOD SCANNER'
-          info='Scan your product to see if its vegan-friendly'
         />
         <OtherProject
           link='https://github.com/louiseeriksson/project-react-native-app'
