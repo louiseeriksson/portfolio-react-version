@@ -16,7 +16,7 @@ a {
 /* header styling */
 
 header {
-  background-image: url(/assets/leafs.jpg);
+  background-image: url(/assets/pink.jpg);
   background-repeat: no-repeat; 
   background-size: cover;
   padding: 40px 36px 0 36px;
@@ -26,7 +26,7 @@ header {
   justify-content: space-between;
   border-bottom: 2px solid white;
   color: white;
-  text-shadow: 1px 1px 4px black;
+  text-shadow: 1px 1px 4px gray;
 }
 
 .icons {
@@ -36,7 +36,7 @@ header {
 .icon {
   border: 2px solid white;
   border-radius: 50%;
-  box-shadow: 1px 1px 4px black;
+  box-shadow: 1px 1px 4px gray;
   cursor: pointer;
   display: flex;
   justify-content: center;
@@ -143,16 +143,11 @@ h4 {
   color: black;
 }
 
-/* .featured-projects .project-wrapper {
-  position: relative;
-} */
 .featured-projects-wrapper {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  flex-basis: calc(100% / 4);
-  max-width: 1000px;
 }
 
 .featured-projects .project-wrapper h3 {
@@ -198,7 +193,7 @@ h4 {
 .thoughts-wrapper {
   display: flex;
   flex-direction: column;
-  }
+}
 
 .article-link {
   font-family: 'Roboto';
@@ -308,7 +303,7 @@ h4 {
 /* footer  */
 
 footer {
-  background-color: #719f25;
+  background-color: #bcc7b6;
   padding: 40px 36px 60px 36px;
   display: flex;
   flex-direction: column;
@@ -345,11 +340,6 @@ footer p {
   .portfolio-section {
     padding: 58px 200px 58px 200px;
   }
-
-  .thoughts-wrapper {
-    align-items: baseline;
-  }
-
 
   .icon-red {
     margin: 20px 
@@ -389,8 +379,11 @@ footer p {
 
   .thoughts-wrapper {
     display: flex;
-    flex-direction: unset;
-    }
+    flex-direction: row;
+    align-items: baseline;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 
   .my-thoughts {
     padding: 5px 20px 40px 20px;

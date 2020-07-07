@@ -36,6 +36,22 @@ export const ProjectsSection = () => {
           info='Combined my two biggest hobbies - plants and programming in to this webshop were I built the backend in Express and in the frontend I focused on the design and styling.'
         // add redux?
         />
+        <FeaturedProject
+          projectLink='https://github.com/louiseeriksson/final-project-frontend'
+          img='assets/vaxt.nu.png'
+          alt='växt.nu'
+          name='VÄXT.NU'
+          info='Combined my two biggest hobbies - plants and programming in to this webshop were I built the backend in Express and in the frontend I focused on the design and styling.'
+        // add redux?
+        />
+        <FeaturedProject
+          projectLink='https://github.com/louiseeriksson/final-project-frontend'
+          img='assets/vaxt.nu.png'
+          alt='växt.nu'
+          name='VÄXT.NU'
+          info='Combined my two biggest hobbies - plants and programming in to this webshop were I built the backend in Express and in the frontend I focused on the design and styling.'
+        // add redux?
+        />
       </div>
       <h3 className="bold-color">
         MORE PROJECTS
