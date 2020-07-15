@@ -61,6 +61,11 @@ export const ProjectsSection = () => {
       <div className="other-projects-wrapper">
 
         <OtherProject
+          link='https://github.com/louiseeriksson/weather-app'
+          name='WEATHER'
+          info='Choose your city and see the weather for today and upcomming days'
+        />
+        <OtherProject
           link='https://github.com/louiseeriksson/project-redux-quiz-elephants'
           name='FLAG QUIZ'
           info='Made a Redux quiz as a groupproject'

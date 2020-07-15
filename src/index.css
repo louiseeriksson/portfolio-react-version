@@ -53,6 +53,7 @@ header {
 
 .header-intro {
   align-self: flex-start;
+  margin-bottom: 20px;
 }
 
 .profile-pic {

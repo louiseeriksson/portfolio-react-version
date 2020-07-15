@@ -18,7 +18,7 @@ export const Header = () => {
       <div className="header-intro">
         <p>LOUISE ERIKSSON</p>
         <h1>frontend developer</h1>
-        <h2>+ teamplayer</h2>
+        {/* <h2>+ teamplayer</h2> */}
       </div>
       <img className="profile-pic" src={process.env.PUBLIC_URL + './assets/profilepic.jpg'} alt="Louise"></img>
     </header >
